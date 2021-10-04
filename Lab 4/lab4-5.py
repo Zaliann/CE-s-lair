@@ -10,7 +10,7 @@ dict['Отчество'] = []
 dict['Год рождения'] = []
 dict['Заболевание'] = []
 
-for i in range(2):
+for i in range(5):
     temp_ar = [x for x in input('Введите свои фамилию, имя, отчество, год рождения, заболевание ').split()]
     dict['Фамилия'].append(temp_ar[0])
     dict['Имя'].append(temp_ar[1])
